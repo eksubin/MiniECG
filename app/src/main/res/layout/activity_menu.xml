@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ecg.roboticslab.ecg.menu"
+    android:orientation="vertical">
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:text="   Know more"
+                android:id="@+id/button1"
+                android:textColor="@color/white"
+                android:background="@drawable/know_more"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:elevation="2dp"
+                android:layout_weight="1"
+                android:onClick="know_more"
+                />
+
+    <Button
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:text="      Start    "
+                android:id="@+id/button2"
+                android:textColor="@color/white"
+                android:background="@drawable/lets_start"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:onClick="call_devicelist"
+                android:elevation="2dp"/>
+
+
+    <Button
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:text="       About App    "
+                android:id="@+id/button3"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_weight="1"
+                android:onClick="call_about"
+                android:elevation="2dp"
+                android:background="@drawable/about_app"/>
+
+
+</LinearLayout>

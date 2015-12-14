@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="appTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="appTheme.Base" parent="Theme.AppCompat.Light" >
+        <item name="colorPrimary">@color/dgreen</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/dgreen</item>
+    </style>
+</resources>

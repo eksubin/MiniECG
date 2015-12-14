@@ -1,0 +1,47 @@
+
+
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/dgreen">
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:id="@+id/app_icon"
+                android:background="@drawable/ecg"
+                android:contentDescription="@string/ignore"
+                android:layout_above="@+id/about_title"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/about_title"
+                android:text="@string/miniEcg"
+                android:textSize="30sp"
+
+                android:background="@color/dgreen"
+                android:textColor="#FFFF"
+                android:layout_centerVertical="true"
+                android:layout_alignEnd="@+id/app_icon" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/about_text"
+                android:text="Dedicated Android Application for MiniECG devices.Developed by Subin E.K. and Shruti."
+                android:background="@color/dgreen"
+                android:textColor="#FFFF"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_below="@+id/about_title"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="24dp" />
+
+            </RelativeLayout>
+
+
+
+
+

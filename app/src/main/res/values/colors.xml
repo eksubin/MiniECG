@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary1">#E91E63</color>
+    <color name="primary2">#FCE4EC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="progress">#00BCD4</color>
+    <color name="dPink">#C51162</color>
+    <color name="dBrown">#3E2723</color>
+    <color name="bck">#FDF0D5</color>
+    <color name="dgreen">#9BC600</color>
+    <color name="grr">#B2DFDB</color>
+    <color name="pnk">#DF2269</color>
+    <color name="blue">#03B1F0</color>
+    <color name="yell">#FDB622</color>
+    <color name="lightyell">#FACC09</color>
+    <color name="lpink">#FF70A6</color>
+    <color name="lblue">#32C8FF</color>
+    <color name="lyell">#FCCC64</color>
+    <color name="ddgreen">#51A530</color>
+</resources>
